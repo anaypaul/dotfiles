@@ -1,0 +1,27 @@
+# OS / editor cruft
+.DS_Store
+
+# === Secrets — never commit (this repo is PUBLIC) ===
+
+# Claude Code (when added as the `claude` package)
+claude/**/.credentials.json
+claude/**/settings.local.json
+claude/**/projects/
+claude/**/history.jsonl
+claude/**/todos/
+claude/**/statsig/
+claude/**/shell-snapshots/
+
+# Codex (when added as the `codex` package)
+codex/**/auth.json
+codex/**/sessions/
+codex/**/history
+codex/**/log/
+
+# Generic secret material
+*.pem
+*.key
+id_rsa
+id_ed25519
+.env
+.env.*
