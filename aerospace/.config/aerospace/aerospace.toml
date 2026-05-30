@@ -175,8 +175,8 @@ up = 'volume up'
 shift-down = ['volume set 0', 'mode main']
 
 # >>> aero-redistribute (managed block - regenerated each run) >>>
-# Auto-generated 2026-05-23 12:55:52 - 10 workspace(s) across 2 monitor(s)
-# mon 1: 0 1 2 3 4; mon 2: 5 6 7 8 9
+# Auto-generated 2026-05-30 14:51:27 - 10 workspace(s) across 1 monitor(s)
+# mon 1: 0 1 2 3 4 5 6 7 8 9
 # Do not edit by hand; re-run the aero-redistribute skill instead.
 [workspace-to-monitor-force-assignment]
 0 = 1
@@ -184,11 +184,11 @@ shift-down = ['volume set 0', 'mode main']
 2 = 1
 3 = 1
 4 = 1
-5 = 2
-6 = 2
-7 = 2
-8 = 2
-9 = 2
+5 = 1
+6 = 1
+7 = 1
+8 = 1
+9 = 1
 # <<< aero-redistribute <<<
 
 # App auto-assignment (event-driven; applies to newly detected windows)
