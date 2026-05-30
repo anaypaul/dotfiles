@@ -133,6 +133,8 @@ alt-0 = 'workspace 0'
 # App-dedicated workspaces (auto-assigned via [[on-window-detected]] rules below)
 alt-c = 'workspace C'
 alt-t = 'workspace T'
+alt-w = 'workspace W'
+alt-z = 'workspace Z'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -199,6 +201,14 @@ run = ['layout tiling', 'move-node-to-workspace C']
 [[on-window-detected]]
 if.app-id = 'com.apple.Terminal'
 run = ['layout tiling', 'move-node-to-workspace T']
+
+[[on-window-detected]]
+if.app-id = 'net.whatsapp.WhatsApp'
+run = ['layout tiling', 'move-node-to-workspace W']
+
+[[on-window-detected]]
+if.app-id = 'us.zoom.xos'
+run = ['layout tiling', 'move-node-to-workspace Z']
 
 # Catch-all: force every other window (incl. dialogs) into the tiling layout
 [[on-window-detected]]
