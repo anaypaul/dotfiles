@@ -18,6 +18,11 @@ codex/**/sessions/
 codex/**/history
 codex/**/log/
 
+# Shell machine-local secrets (sourced by .zshrc, never tracked)
+.zshrc.local
+zsh/.zshrc.local
+.bashrc.local
+
 # Generic secret material
 *.pem
 *.key
