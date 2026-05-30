@@ -118,10 +118,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Claude Code shortcut - Opus 4.8 with 1M context and max effort
 cc() {
-  noglob claude --effort max --model 'claude-opus-4-8[1m]' "$@"
+  claude --dangerously-skip-permissions "$@"
 }
 
 # Same as cc, but resumes the last session
 ccc() {
-  noglob claude --effort max --model 'claude-opus-4-8[1m]' --continue "$@"
+  claude --dangerously-skip-permissions --resume "$@"
 }
